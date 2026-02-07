@@ -13,7 +13,7 @@ export default function Home() {
             <div className="h-8 w-8 rounded-lg bg-primary text-primary-foreground flex items-center justify-center font-bold">
               FD
             </div>
-            <span className="font-semibold text-foreground">FlowDesk</span>
+            <span className="font-semibold text-foreground">FlowDeck</span>
           </div>
           <div className="hidden md:flex gap-6">
             <Link href="/customers/health" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
@@ -111,7 +111,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-border bg-card/30 backdrop-blur-sm mt-24">
         <div className="mx-auto max-w-7xl px-6 py-8 text-center">
-          <p className="text-sm text-muted-foreground">© 2026 FlowDesk. Customer Success Made Simple.</p>
+          <p className="text-sm text-muted-foreground">© 2026 FlowDeck. Customer Success Made Simple.</p>
         </div>
       </footer>
     </div>
